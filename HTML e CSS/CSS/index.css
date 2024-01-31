@@ -1,0 +1,90 @@
+html, body {
+    background-image: linear-gradient(to right, #B5EBFF, #E3F8FF);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav > a {
+    background-color: #163A47;
+    color: #268A9E;
+    font-size: 15px;
+    padding: 3px;
+    box-shadow: 2px 2px 3px 1px #163A47;
+    width: 150px;
+    height: auto;
+    margin: 2px;
+    border-radius: 5px 5px;
+}
+h1 {
+    color: #163A47;
+    font-size: 50px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h2 {
+    color: #163A47;
+    font-size: 30px;
+    width: 800px;
+    height: auto;;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h2:hover {
+    color: #3AD1F0;
+}
+nav>a:hover {
+    color: #3AD1F0;
+}
+h1:hover {
+    color: #3AD1F0;
+}
+p:hover {
+    color: #000000;
+}
+div {
+    display: inline-flex;
+}
+p {
+    color: #E3F8FF;
+    background-color: #7898a4;
+    width: auto;
+    height: 170px;
+    display: block;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: justify;
+    text-indent: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: #163A47 solid 20px;
+    border-radius: 5px 25px;
+}
+.redes {
+    background-color:  #7898a4;
+    border-left: #163A47 solid 20px;
+    text-align: justify;
+    text-indent: 30px;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+}
+iframe {
+    display: block;
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    background-color: #163A47;
+    color: #E3F8FF;
+    font-size: 10px;
+    margin: 50px auto 10px auto;
+    text-align: center;
+}
