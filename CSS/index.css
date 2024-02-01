@@ -1,8 +1,6 @@
 html, body {
     background-image: linear-gradient(to right, #B5EBFF, #E3F8FF);
     font-family:Arial, Helvetica, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
 }
 nav > a {
     background-color: #163A47;
@@ -11,15 +9,12 @@ nav > a {
     padding: 3px;
     box-shadow: 2px 2px 3px 1px #163A47;
     width: 150px;
-    height: auto;
     margin: 2px;
     border-radius: 5px 5px;
 }
 h1 {
     color: #163A47;
     font-size: 50px;
-    max-width: 1000px;
-    min-width: 320px;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -36,47 +31,34 @@ h2 {
     margin-bottom: 20px;
     text-align: center;
 }
-h2:hover {
-    color: #3AD1F0;
-}
-nav>a:hover {
-    color: #3AD1F0;
-}
-h1:hover {
+h1:hover, h2:hover,nav>a:hover {
     color: #3AD1F0;
 }
 p:hover {
     color: #000000;
 }
-div {
-    display: inline-flex;
-}
 p {
+    display: inline-flex;
     color: #E3F8FF;
     background-color: #7898a4;
-    max-width: auto;
-    min-width: 320px;
-    height: 170px;
-    display: block;
+    max-width: 370px;
+    height: 200px;
     margin-right: 5px;
     margin-left: 5px;
-    text-align: justify;
-    text-indent: 30px;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     border-left: #163A47 solid 20px;
     border-radius: 5px 25px;
+    justify-content: center;
+    
 }
 .redes {
-    background-color:  #7898a4;
-    border-left: #163A47 solid 20px;
-    text-align: justify;
-    text-indent: 30px;
+    display: block;
     margin: auto;
     max-width: 500px;
     min-width: 320px;
-    height: 100px;
+    height: 90px:
 }
 iframe {
     display: block;
