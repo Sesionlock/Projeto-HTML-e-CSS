@@ -1,8 +1,14 @@
-html, body {
+body {
     background-image: linear-gradient(to right, #B5EBFF, #E3F8FF);
     font-family:Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
+    max-width: 3000px;
+    min-width: 320px;
+}
+nav {
+    margin-top: 15px;
+    margin-left: 10px;
 }
 nav > a {
     background-color: #163A47;
@@ -39,6 +45,9 @@ h1:hover, h2:hover, nav>a:hover {
 }
 p:hover {
     color: #000000;
+}
+div{
+    text-align: center;
 }
 p {
     color: #E3F8FF;
