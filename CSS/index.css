@@ -57,8 +57,10 @@ p {
     color: #E3F8FF;
     background-color: #7898a4;
     display: inline-flex;
-    width: 330px;
-    height: 250px;
+    max-width: 375px;
+    min-width: 150px;
+    max-height: 400px;
+    min-height: 200px;
     margin-right: 5px;
     margin-left: 5px;
     text-align: justify;
